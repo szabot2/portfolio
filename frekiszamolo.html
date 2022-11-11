@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="HU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frekiszamolo</title>
+</head>
+<body>
+
+    <ul>
+		 <a href="index.html">
+			 <li>Vissza</li>
+		 </a>
+	 </ul>
+
+     <h1>Frekiszámoló</h1>
+
+     <form>
+        <label for="Induk">Add meg az induktivitás értékét:</label>
+        <input type="number" name="induk" id="induk"> μH
+        <br>
+        <label for="kapacitás">Add meg az kapacitás értékét:</label>
+        <input type="number" name="kapacitás" id="kapacitás"> μH
+        <input type="button" value="Számol" onclick="szamol()">
+        
+     </form>
+
+     <h2 id="eredmeny">Eredmény: ... Hz</h2>
+
+     <img style="width: 50%;" src="/img/Rezonancia+frekvencia.jpg" alt="">
+
+     <script>
+        function szamol() {
+            let L = parseInt(induk.value) / 1000000;
+            let C = parseInt(kapacitás.value) / 1000000;
+            let freki = 1 / (2 * Math.PI * Math.sqrt(L * C));
+            document.getElementById('eredmeny').innerText = 'Eredmény: ' + freki + ' Hz'
+        }
+     </script>
+
+<style>
+
+
+</style>
+</body>
+</html>
