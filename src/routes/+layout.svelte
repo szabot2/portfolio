@@ -10,8 +10,10 @@
    }
 
 	:global(body) {
-		background-color: black;
+		background-color: #0f0f0f;
       scrollbar-width: none;
+
+		--background-color: #272727;
 
       &::-webkit-scrollbar {
          width: 0;
