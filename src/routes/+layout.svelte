@@ -1,6 +1,10 @@
+<script>
+	import "../app.css";
+ </script>
+
 <slot/>
 
-<style lang="scss">
+<style lang="postcss">
    :global(*) {
       margin: 0;
       padding: 0;
@@ -14,10 +18,5 @@
       scrollbar-width: none;
 
 		--background-color: #272727;
-
-      &::-webkit-scrollbar {
-         width: 0;
-         display: none;
-      }
 	}
 </style>
