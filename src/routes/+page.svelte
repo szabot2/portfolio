@@ -9,7 +9,7 @@
 
 		<a href="{base}/tesla" class="w-40 group">
 			<p class="text-center text-white m-2 font-semibold group-hover:text-amber-600 transition duration-300"> Mini Tesla tekercs</p>
-			<img class="rounded-3xl outline outline-2 outline-white group-hover:outline-amber-600 transition-all duration-300" src="tesla2.jpg" alt="" />
+			<img class="rounded-3xl outline outline-2 outline-white group-hover:outline-amber-600 transition-all duration-300" src="{base}/tesla2.jpg" alt="" />
 		</a>
 
 	</div>
