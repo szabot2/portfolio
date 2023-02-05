@@ -89,6 +89,10 @@
 
 	</div>
 
+	<div class="w-6/12 p-3 max-w-xs bg-neutral-800 rounded-3xl fixed bottom-5 right-5">
+		<img class="max-h-full max-w-full rounded-2xl" src="doga2/doga2.jpg" alt="">
+	</div>
+
 </div>
 
 </main>
