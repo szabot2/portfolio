@@ -26,7 +26,7 @@
 				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.jpg" alt="" />
 			</div>
 			<div>
-				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.apng" alt="">
+				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.gif" alt="">
 			</div>
 		</div>
 	</div>
