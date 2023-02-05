@@ -15,7 +15,7 @@
 
 	<h1 class="text-center my-8 text-white text-4xl font-semibold">Mini Tesla transzformátor KIT, BD243C tranzisztorral.</h1>
 
-	<div class="grid grid-cols-2 w-3/6 mx-auto bg-neutral-800 p-6 rounded-3xl gap-8">
+	<div class="grid grid-cols-2 max-w-screen-lg mx-auto bg-neutral-800 p-6 rounded-3xl gap-8">
 		<div>
 			<img class="max-h-full max-w-full rounded-2xl" src="tesla2.jpg" alt="" />
 		</div>
@@ -24,7 +24,7 @@
 		</div>
 	</div>
 
-	<div class="grid gap-8 grid-flow-col text-white my-16 items-center w-max mx-auto">
+	<div class="grid gap-8 grid-flow-col text-white my-16 items-center max-w-fit mx-auto">
 
 		<div class="bg-neutral-800 rounded-3xl p-4">
 
