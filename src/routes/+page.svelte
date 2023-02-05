@@ -1,5 +1,5 @@
 <script>
-	import { base } from "$app/paths";
+	import { base } from '$app/paths';
  </script>
 
 <main class="w-screen h-screen">

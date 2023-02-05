@@ -1,8 +1,16 @@
 <script>
 	import "../app.css";
- </script>
+	import { fade } from 'svelte/transition';
+	import { circOut } from 'svelte/easing';
+	import { navigating } from '$app/stores';
 
-<slot/>
+</script>
+
+{#key $navigating}
+	<div in:fade={{easing: circOut, duration: 650}}>
+		<slot />
+	</div>
+{/key}
 
 <style lang="postcss">
    :global(*) {
