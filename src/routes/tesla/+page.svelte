@@ -17,10 +17,10 @@
 
 	<div class="grid grid-cols-2 max-w-screen-lg mx-auto bg-neutral-800 p-6 rounded-3xl gap-8">
 		<div>
-			<img class="max-h-full max-w-full rounded-2xl" src="tesla2.jpg" alt="" />
+			<img class="max-h-full max-w-full rounded-2xl" src="/tesla/tesla2.jpg" alt="" />
 		</div>
 		<div>
-			<img class="max-h-full max-w-full rounded-2xl" src="tesla3.jpg" alt="" />
+			<img class="max-h-full max-w-full rounded-2xl" src="/tesla/tesla3.jpg" alt="" />
 		</div>
 	</div>
 
@@ -59,13 +59,13 @@
 		<div>
 			<h2 class="text-center text-2xl font-semibold">Kapcsolás:</h2>
 
-			<img class="rounded-3xl my-2" src="kapcsolas.jpg" alt="" />
+			<img class="rounded-3xl my-2" src="/tesla/kapcsolas.jpg" alt="" />
 		</div>
 
 		<div>
 			<h2 class="text-center text-2xl font-semibold">Alkatrészek:</h2>
 
-			<img class="rounded-3xl my-2" src="alkatreszek.jpg" alt="" />
+			<img class="rounded-3xl my-2" src="/tesla/alkatreszek.jpg" alt="" />
 		</div>
 	</div>
 </main>
