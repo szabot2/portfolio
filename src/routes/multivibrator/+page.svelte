@@ -20,41 +20,42 @@
 
 	<h1 class="text-center my-8 text-white text-4xl font-semibold">Astabil Multivibrátor</h1>
 
-	<div class="grid grid-cols-2 max-w-screen-lg mx-auto bg-neutral-800 p-6 rounded-3xl gap-8">
-		<div>
-			<img class="max-h-full max-w-full rounded-2xl" src="/multivibrator/multivibrator.jpg" alt="" />
-		</div>
-		<div>
-			<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.apng" alt="">
+	<div class="flex w-screen justify-center">
+		<div class="mx-5 grid grid-cols-2 max-w-screen-2xl bg-neutral-800 p-6 rounded-3xl gap-8">
+			<div>
+				<img class="max-h-full max-w-full rounded-2xl" src="/multivibrator/multivibrator.jpg" alt="" />
+			</div>
+			<div>
+				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.apng" alt="">
+			</div>
 		</div>
 	</div>
 
-	<div class="grid gap-8 grid-flow-col text-white mt-16 mb-10 items-center max-w-fit mx-auto">
-
-		<div class="bg-neutral-800 rounded-3xl p-4">
-
-			<h2 class="text-center text-2xl font-semibold">Alkatrészek:</h2>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">4db ellenállás</div>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">2db Kondenzátor</div>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">2db transistor</div>
-			<div class="text-center pt-4">2db LED</div>
-			
+	<div class="flex w-screen justify-center">
+		<div class="grid gap-8 grid-flow-col text-white mt-16 mb-10 items-center max-w-fit mx-5">
+			<div class="bg-neutral-800 rounded-3xl p-4">
+				<h2 class="text-center text-2xl font-semibold">Alkatrészek:</h2>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">4db ellenállás</div>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">2db Kondenzátor</div>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">2db transistor</div>
+				<div class="text-center pt-4">2db LED</div>
+		
+			</div>
+			<div class="bg-neutral-800 rounded-3xl p-4">
+				<h2 class="text-center text-2xl font-semibold">Alkatrészek adatai</h2>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">R1 = 675 ohm</div>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">R2 = 670 ohm</div>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">R3 = 29.62 ohm</div>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">R4 = 29.52 ohm</div>
+				<div class="text-center pt-4 ">2* 47 microfarad</div>
+			</div>
 		</div>
-
-		<div class="bg-neutral-800 rounded-3xl p-4">
-
-			<h2 class="text-center text-2xl font-semibold">Alkatrészek adatai</h2>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">R1 = 675 ohm</div>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">R2 = 670 ohm</div>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">R3 = 29.62 ohm</div>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">R4 = 29.52 ohm</div>
-			<div class="text-center pt-4 ">2* 47 microfarad</div>
-		</div>
-
 	</div>
 
 	<h1 class="text-2xl font-semibold text-center text-white">Kapcsolási rajz</h1>
-	<div class="bg-neutral-800 rounded-3xl p-4 max-w-fit mx-auto mb-5">
-		<img class="rounded-3xl w-96" src="/multivibrator/astabilRajz.png" alt="">
+	<div class="w-screen flex justify-center">
+		<div class="bg-neutral-800 rounded-3xl p-4 max-w-fit mx-5 mb-5">
+			<img class="rounded-3xl w-96" src="/multivibrator/astabilRajz.png" alt="">
+		</div>
 	</div>
 </main>

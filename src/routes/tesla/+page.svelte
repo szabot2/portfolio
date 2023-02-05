@@ -15,57 +15,54 @@
 
 	<h1 class="text-center my-8 text-white text-4xl font-semibold">Mini Tesla transzformátor KIT, BD243C tranzisztorral.</h1>
 
-	<div class="grid grid-cols-2 max-w-screen-lg mx-auto bg-neutral-800 p-6 rounded-3xl gap-8">
-		<div>
-			<img class="max-h-full max-w-full rounded-2xl" src="/tesla/tesla2.jpg" alt="" />
-		</div>
-		<div>
-			<img class="max-h-full max-w-full rounded-2xl" src="/tesla/tesla3.jpg" alt="" />
+	<div class="flex w-screen justify-center">
+		<div class="grid grid-cols-2 max-w-screen-lg mx-5 bg-neutral-800 p-6 rounded-3xl gap-8">
+			<div>
+				<img class="max-h-full max-w-full rounded-2xl" src="/tesla/tesla2.jpg" alt="" />
+			</div>
+			<div>
+				<img class="max-h-full max-w-full rounded-2xl" src="/tesla/tesla3.jpg" alt="" />
+			</div>
 		</div>
 	</div>
 
-	<div class="grid gap-8 grid-flow-col text-white my-16 items-center max-w-fit mx-auto">
-
-		<div class="bg-neutral-800 rounded-3xl p-4">
-
-			<h2 class="text-center text-2xl font-semibold">Adatok:</h2>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">Működési feszültség: 9...12V DC</div>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">Maximális áramfelvétel: 660mA</div>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">Elkészítési idő: 15 perc</div>
-			<div class="text-center pt-4">Méretek: 40 x 31 x 49mm</div>
-			
+	<div class="flex w-screen justify-center">
+		<div class="grid gap-8 grid-flow-col text-white my-16 items-center max-w-fit mx-5">
+			<div class="bg-neutral-800 rounded-3xl p-4">
+				<h2 class="text-center text-2xl font-semibold">Adatok:</h2>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">Működési feszültség: 9...12V DC</div>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">Maximális áramfelvétel: 660mA</div>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">Elkészítési idő: 15 perc</div>
+				<div class="text-center pt-4">Méretek: 40 x 31 x 49mm</div>
+		
+			</div>
+			<div class="bg-neutral-800 rounded-3xl p-4">
+				<h2 class="text-center text-2xl font-semibold">Észrevételek:</h2>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">
+					A tekercs összerakása egyszerű volt, a réz végét megcinezni és
+					helyére forrasztani kicsit trükkös volt, de megbirkóztam vele.
+				</div>
+				<div class="text-center p-4 border-b border-solid border-white border-opacity-20">
+					Ha a kis lámpát a tekercs közelébe tesszük, az felvillan.
+				</div>
+				<div class="text-center pt-4 ">
+					A magas frekvenciájú áram miatt a tesla tekercs nem rázott, hanem
+					inkább égetett.
+				</div>
+			</div>
 		</div>
-
-		<div class="bg-neutral-800 rounded-3xl p-4">
-
-			<h2 class="text-center text-2xl font-semibold">Észrevételek:</h2>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">
-				A tekercs összerakása egyszerű volt, a réz végét megcinezni és
-				helyére forrasztani kicsit trükkös volt, de megbirkóztam vele.
-			</div>
-			<div class="text-center p-4 border-b border-solid border-white border-opacity-20">
-				Ha a kis lámpát a tekercs közelébe tesszük, az felvillan.
-			</div>
-			<div class="text-center pt-4 ">
-				A magas frekvenciájú áram miatt a tesla tekercs nem rázott, hanem
-				inkább égetett.
-			</div>
-
-		</div>
-
 	</div>
 
-	<div class="w-8/12 grid grid-cols-2 py-4 px-12 rounded-3xl bg-neutral-800 items-center justify-items-center gap-x-10 my-8 mx-auto text-white text-center">
-		<div>
-			<h2 class="text-center text-2xl font-semibold">Kapcsolás:</h2>
-
-			<img class="rounded-3xl my-2" src="/tesla/kapcsolas.jpg" alt="" />
-		</div>
-
-		<div>
-			<h2 class="text-center text-2xl font-semibold">Alkatrészek:</h2>
-
-			<img class="rounded-3xl my-2" src="/tesla/alkatreszek.jpg" alt="" />
+	<div class="flex w-screen justify-center">
+		<div class="grid grid-cols-2 max-w-screen-lg mx-5 bg-neutral-800 p-6 mb-5 rounded-3xl gap-8">
+			<div>
+				<p class="text-center text-white font-semibold">Kapcsolás</p>
+				<img class="max-h-full max-w-full rounded-2xl" src="/tesla/kapcsolas.jpg" alt="" />
+			</div>
+			<div>
+				<p class="text-center text-white font-semibold">Alkatrészek</p>
+				<img class="max-h-full max-w-full rounded-2xl" src="/tesla/alkatreszek.jpg" alt="" />
+			</div>
 		</div>
 	</div>
 </main>
