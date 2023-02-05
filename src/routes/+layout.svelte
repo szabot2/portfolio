@@ -3,9 +3,10 @@
 	import { fade } from 'svelte/transition';
 	import { circOut } from 'svelte/easing';
 	import { navigating } from '$app/stores';
+	import Navbar from '$lib/components/Navbar.svelte';
 
 </script>
-
+<Navbar />
 {#key $navigating}
 	<div in:fade={{easing: circOut, duration: 650}}>
 		<slot />
@@ -20,9 +21,9 @@
    }
 
 	:global(body) {
-		background-color: #0f0f0f;
+		background-color: rgb(15, 15, 15);
       scrollbar-width: none;
 
-		--background-color: #272727;
+		--background-color: rgb(28, 28, 28);
 	}
 </style>

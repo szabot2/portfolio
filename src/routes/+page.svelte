@@ -3,6 +3,7 @@
  </script>
 
 <main class="w-screen h-screen">
+
 	<h1 class="text-white text-center text-xl my-2">Szabó Tamás Tibor portfóliója</h1>
 
 	<div class="flex gap-8 flex-wrap justify-center mb-4">
