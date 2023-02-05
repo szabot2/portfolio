@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/portfolio/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="/portfolio/_app/immutable/assets/_layout-e6b6a34d.css" rel="stylesheet">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/start-33332345.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/chunks/index-8d580654.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/chunks/singletons-591bb505.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/chunks/shared-23917130.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/components/pages/_layout.svelte-8500f402.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/chunks/stores-fba28c4c.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/modules/pages/_layout.js-9cbb603b.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/components/pages/doga2/_page.svelte-826c3662.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<div><main><div class="text-white"><h1 class="text-center font-semibold text-2xl m-2">Vegyes kapcsolás paramétereinek számítása</h1>
+
+	<span class="mx-5">Add meg mikor születtél:</span><input type="date" class="focus:outline-amber-600 bg-neutral-800 rounded-2xl p-3 outline mt-5" value="2004-03-14">
+
+	<div class="flex flex-wrap my-5"><div class="flex flex-col mt-10 mx-5"><p class="pl-3">Adatok:</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">UXY = 20.04 V </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">R1 = R2 = R3 = 14 Ω </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">R4 = 3 Ω </p></div>
+
+		<div class="flex flex-col mt-10 mx-5"><p class="pl-3">Az eredő ellenállás számítása:</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">Re = ( R1 x R4 ) + R2 </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">Re = 16.47 Ω</p></div>
+
+		<div class="flex flex-col mt-10 mx-5"><p class="pl-3">Az áramkörben folyó összes áramerősség értéke:</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">I = U / Re</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">I = 1.22 A</p></div>
+
+		<div class="flex flex-col mt-10 mx-5"><p class="pl-3">Az R2 ellenálláson eső feszültség:</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">UR2 = R2 * I </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">UR2 = 17.03 V </p></div>
+
+		<div class="flex flex-col mt-10 mx-5"><p class="pl-3">Az R1 és R4 ellenálláson eső feszültség:</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">UR14 = U - UR2 </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">UR14 = 3.01 V </p></div>
+
+		<div class="flex flex-col mt-10 mx-5"><p class="pl-3">Az R1 ellenálláson átfolyó áramerősség értéke:</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">I1 = UR14 / R1 </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">I1 = 0.21 A </p></div>
+
+		<div class="flex flex-col mt-10 mx-5"><p class="pl-3">Az R4 ellenálláson átfolyó áramerősség értéke:</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">I4 = UR14 / R1 </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">I4 = 1.00 A </p></div>
+
+		<div class="flex flex-col mt-10 mx-5"><p class="pl-3">A teljesítmények számítása!</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">P = U * I </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">P1 = UR14 * I1 </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">P2 = UR2 * I </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1">P4 = UR14 * I4 </p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">P = 24.38 W</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">P1 = 0.65 W</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">P2 = 20.73 W</p>
+			<p class="bg-neutral-800 rounded-full w-max p-3 my-1 border-b">P4 = 3.01 W</p></div></div></div></main></div>
+
+
+		<script type="module" data-sveltekit-hydrate="1hzav3u">
+			import { start } from "/portfolio/_app/immutable/start-33332345.js";
+
+			start({
+				env: {},
+				paths: {"assets":"/portfolio","base":"/portfolio"},
+				target: document.querySelector('[data-sveltekit-hydrate="1hzav3u"]').parentNode,
+				version: "1675625009238",
+				hydrate: {
+					node_ids: [0, 3],
+					data: [null,null],
+					form: null,
+					error: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>
