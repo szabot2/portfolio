@@ -23,7 +23,7 @@
 	<div class="flex w-screen justify-center">
 		<div class="mx-5 grid grid-cols-2 max-w-screen-2xl bg-neutral-800 p-6 rounded-3xl gap-8">
 			<div>
-				<img class="max-h-full max-w-full rounded-2xl" src="/multivibrator/multivibrator.jpg" alt="" />
+				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.jpg" alt="" />
 			</div>
 			<div>
 				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.apng" alt="">
@@ -55,7 +55,7 @@
 	<h1 class="text-2xl font-semibold text-center text-white">Kapcsolási rajz</h1>
 	<div class="w-screen flex justify-center">
 		<div class="bg-neutral-800 rounded-3xl p-4 max-w-fit mx-5 mb-5">
-			<img class="rounded-3xl w-96" src="/multivibrator/astabilRajz.png" alt="">
+			<img class="rounded-3xl w-96" src="multivibrator/astabilRajz.png" alt="">
 		</div>
 	</div>
 </main>
