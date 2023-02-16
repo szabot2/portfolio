@@ -28,5 +28,10 @@
 			<img class="max-h-full max-w-full rounded-3xl outline outline-2 outline-white group-hover:outline-amber-600 transition-all duration-300" src="{base}/tesla/tesla2.jpg" alt="" />
 		</a>
 
+		<a href="{base}/wirelessled" class="w-40 group">
+			<p class="text-center text-white my-2 font-semibold group-hover:text-amber-600 transition duration-300">Vezeték nélküli LED</p>
+			<img class="max-h-full max-w-full rounded-3xl outline outline-2 outline-white group-hover:outline-amber-600 transition-all duration-300" src="{base}/wirelessled/kesz.jpg" alt="" />
+		</a>
+
 	</div>
 </main>
