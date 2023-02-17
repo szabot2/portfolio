@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
  </script>
 
-<main class="w-screen h-screen">
+<main>
 
 	<h1 class="text-white text-center text-xl my-2">Szabó Tamás Tibor portfóliója</h1>
 

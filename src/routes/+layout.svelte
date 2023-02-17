@@ -26,4 +26,9 @@
 
 		--background-color: rgb(28, 28, 28);
 	}
+
+	:global(main) {
+		margin-top: 5rem;
+		height: calc(100vh - 5rem);
+	}
 </style>

@@ -5,7 +5,7 @@
 	$: console.log(freki.toString())
 </script>
 
-<main class="w-screen h-screen flex justify-center items-center">
+<main class="flex justify-center items-center">
 
 <div class="text-white">
 	<h1 class="w-52 text-center font-semibold text-3xl mb-1">Frekiszámoló</h1>
