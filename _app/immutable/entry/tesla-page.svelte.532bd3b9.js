@@ -1,4 +1,4 @@
-import{S as Wt,i as Xt,s as Yt,k as a,q as d,a as n,l as s,m as r,r as v,h as l,c as o,n as e,M as W,b as Zt,D as t,E as It}from"../chunks/index.8eabf814.js";function $t(Ut){let i,I,X,Y,V,Z,$,D,g,S,u,Vt,tt,F,x,Dt,et,j,z,c,A,at,st,w,lt,rt,M,it,nt,T,ot,ct,H,dt,vt,m,C,mt,kt,G,ft,gt,K,zt,bt,q,ht,ut,N,b,p,P,xt,pt,_,jt,_t,E,B,Et,yt,y,At;return{c(){i=a("main"),I=a("div"),X=d(`Nikola Tesla 1891-ben építette meg a róla elnevezett Tesla-tekercset. A
+import{S as Wt,i as Xt,s as Yt,k as a,q as d,a as n,l as s,m as r,r as v,h as l,c as o,n as e,M as W,b as Zt,D as t,E as It}from"../chunks/index.e8fd5346.js";function $t(Ut){let i,I,X,Y,V,Z,$,D,g,S,u,Vt,tt,F,x,Dt,et,j,z,c,A,at,st,w,lt,rt,M,it,nt,T,ot,ct,H,dt,vt,m,C,mt,kt,G,ft,gt,K,zt,bt,q,ht,ut,N,b,p,P,xt,pt,_,jt,_t,E,B,Et,yt,y,At;return{c(){i=a("main"),I=a("div"),X=d(`Nikola Tesla 1891-ben építette meg a róla elnevezett Tesla-tekercset. A
 		Tesla-tekercs legalább két légmagos tekercsből áll, ami nagyfeszültséget
 		állít elő nagyfrekvencián. A nagyfeszültség 10 000 V-tól akár 10 000 000
 		V-ig terjedhet, a frekvencia pedig több MHz is lehet, általában 25 kHz és
