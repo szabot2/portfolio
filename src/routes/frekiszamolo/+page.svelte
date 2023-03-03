@@ -11,7 +11,7 @@
 	<h1 class="w-52 text-center font-semibold text-3xl mb-1">Frekiszámoló</h1>
 	<input class="transition-all caret-amber-600 outline w-52 text-center bg-neutral-800 focus:outline-amber-600 focus:placeholder:text-transparent placeholder:text-center placeholder:text-neutral-500 text-white rounded-2xl my-2 p-3" type="number" placeholder="Induktivitás értéke" bind:value={L}><span class="ml-2">μH</span>
 	<br>
-	<input class="transition-all caret-amber-600 outline w-52 text-center bg-neutral-800 focus:outline-amber-600 focus:placeholder:text-transparent placeholder:text-center placeholder:text-neutral-500 text-white rounded-2xl my-2 p-3" type="number" placeholder="Kapacitás értéke" bind:value={C}><span class="ml-2">μH</span>
+	<input class="transition-all caret-amber-600 outline w-52 text-center bg-neutral-800 focus:outline-amber-600 focus:placeholder:text-transparent placeholder:text-center placeholder:text-neutral-500 text-white rounded-2xl my-2 p-3" type="number" placeholder="Kapacitás értéke" bind:value={C}><span class="ml-2">μF</span>
 
 	<div class="w-52 text-center font-semibold text-xl mt-1">
 		{#if freki.toString().includes('Infinity')}
