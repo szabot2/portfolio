@@ -2,12 +2,12 @@
 	import "../app.css";
 	import { fade } from 'svelte/transition';
 	import { circOut } from 'svelte/easing';
-	import { navigating } from '$app/stores';
+	import { page } from '$app/stores';
 	import Navbar from '$lib/components/Navbar.svelte';
-
 </script>
+
 <Navbar />
-{#key $navigating}
+{#key $page.url.href}
 	<div in:fade={{easing: circOut, duration: 650}}>
 		<slot />
 	</div>
