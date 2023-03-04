@@ -4,7 +4,11 @@
 	import { circOut } from 'svelte/easing';
 	import { page } from '$app/stores';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
 
+	AOS.init({ once: true });
+	
 	// Theme színek localStorage-ból
 	if (localStorage.getItem('theme')) {
 		JSON.parse(localStorage.getItem('theme')).forEach(x => {
@@ -31,7 +35,6 @@
 	:global(body) {
 		background-color: var(--background);
       scrollbar-width: none;
-
 	}
 
 	:global(main) {

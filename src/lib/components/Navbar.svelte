@@ -29,7 +29,7 @@
 		})
 </script>
 
-<div class="bg-secondaryContainer rounded-b-full p-4 px-10 absolute top-0 w-full h-16 flex items-center justify-between">
+<div data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="300" class="bg-secondaryContainer rounded-b-full p-4 px-10 absolute top-0 w-full h-16 flex items-center justify-between">
 	<a href="{base || '/'}" class="w-20 text-onSurface rounded-full p-2 outline hover:text-primary transition-all duration-300 cursor-pointer text-center">Főoldal</a>
 	<div class="h-full outline outline-outline rounded-full hover:outline-primary transition-all duration-300" style="background-color: {color};"><input type="color" bind:value={color} on:input={setColor} class="w-20 opacity-0 cursor-pointer"></div>
 </div>
