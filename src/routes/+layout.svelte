@@ -34,11 +34,12 @@
 
 	:global(body) {
 		background-color: var(--background);
-      scrollbar-width: none;
 	}
 
 	:global(main) {
-		margin-top: 5rem;
-		height: calc(100vh - 5rem);
+		height: 100wh;
+		width: 100wv;
+		overflow: hidden;
+		padding-top: 5rem;
 	}
 </style>
