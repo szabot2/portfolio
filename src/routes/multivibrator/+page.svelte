@@ -23,7 +23,7 @@
 	<div class="flex justify-center">
 		<div class="mx-5 grid grid-cols-2 max-w-screen-2xl bg-secondaryContainer p-6 rounded-3xl gap-8">
 			<div>
-				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.jpg" alt="" />
+				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.webp" alt="" />
 			</div>
 			<div>
 				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.gif" alt="">

@@ -18,10 +18,10 @@
 	<div class="flex justify-center">
 		<div class="grid grid-cols-2 max-w-screen-lg mx-5 bg-secondaryContainer p-6 rounded-3xl gap-8">
 			<div>
-				<img class="max-h-full max-w-full rounded-2xl" src="tesla/tesla2.jpg" alt="" />
+				<img class="max-h-full max-w-full rounded-2xl" src="tesla/tesla2.webp" alt="" />
 			</div>
 			<div>
-				<img class="max-h-full max-w-full rounded-2xl" src="tesla/tesla3.jpg" alt="" />
+				<img class="max-h-full max-w-full rounded-2xl" src="tesla/tesla3.webp" alt="" />
 			</div>
 		</div>
 	</div>

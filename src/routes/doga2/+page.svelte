@@ -111,7 +111,7 @@
 	</div>
 
 	<div class="w-6/12 p-3 max-w-xs rounded-3xl fixed bottom-5 right-5">
-		<img class="max-h-full max-w-full rounded-2xl outline outline-tertiary" src="doga2/doga2.jpg" alt="">
+		<img class="max-h-full max-w-full rounded-2xl outline outline-tertiary" src="doga2/kapcs.webp" alt="">
 	</div>
 
 </div>

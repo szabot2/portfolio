@@ -11,7 +11,7 @@
 
     <div class="flex justify-center">
         <a target="_blank" rel="noreferrer" class="p-5 rounded-2xl bg-secondaryContainer" href="http://skory.gylcomp.hu/kapcs/kapcs.html">
-            <img class="max-w-xs rounded-2xl" src="wirelessled/kesz.jpg" alt="">
+            <img class="max-w-xs rounded-2xl" src="wirelessled/kesz.webp" alt="">
         </a>
     </div>
 

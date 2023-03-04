@@ -20,17 +20,17 @@
 
 		<a href="{base}/multivibrator" class="w-40 group">
 			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Astabil multivibrátor</p>
-			<img class="max-h-full max-w-full rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300" src="{base}/multivibrator/multivibrator90.jpg" alt="" />
+			<img class="max-h-full max-w-full rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300" src="{base}/multivibrator/multivibrator90.webp" alt="" />
 		</a>
 		
 		<a href="{base}/tesla" class="w-40 group">
 			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Mini Tesla tekercs</p>
-			<img class="max-h-full max-w-full rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300" src="{base}/tesla/tesla2.jpg" alt="" />
+			<img class="max-h-full max-w-full rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300" src="{base}/tesla/tesla2.webp" alt="" />
 		</a>
 
 		<a href="{base}/wirelessled" class="w-40 group">
 			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Vezeték nélküli LED</p>
-			<img class="max-h-full max-w-full rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300" src="{base}/wirelessled/kesz.jpg" alt="" />
+			<img class="max-h-full max-w-full rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300" src="{base}/wirelessled/kesz.webp" alt="" />
 		</a>
 
 	</div>
