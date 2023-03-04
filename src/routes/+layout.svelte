@@ -4,6 +4,14 @@
 	import { circOut } from 'svelte/easing';
 	import { page } from '$app/stores';
 	import Navbar from '$lib/components/Navbar.svelte';
+
+	// Theme színek localStorage-ból
+	if (localStorage.getItem('theme')) {
+		JSON.parse(localStorage.getItem('theme')).forEach(x => {
+			document.documentElement.style.setProperty(`--${Object.keys(x)}`, x[Object.keys(x)])
+		});
+	}
+
 </script>
 
 <Navbar />
@@ -21,10 +29,9 @@
    }
 
 	:global(body) {
-		background-color: rgb(15, 15, 15);
+		background-color: var(--background);
       scrollbar-width: none;
 
-		--background-color: rgb(28, 28, 28);
 	}
 
 	:global(main) {

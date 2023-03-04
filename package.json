@@ -6,7 +6,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"deploy": "touch build/.nojekyll && gh-pages -d build -t true"
+		"deploy": "vite build && touch build/.nojekyll && gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^2.0.1",
