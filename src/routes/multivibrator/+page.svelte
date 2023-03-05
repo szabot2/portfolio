@@ -28,7 +28,7 @@
 			<div>
 				<!-- <img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.avif" alt=""> -->
 				<!-- svelte-ignore a11y-media-has-caption -->
-				<video class="max-h-full max-w-full rounded-2xl" controls autoplay loop src="/multivibrator/multivibrator-av1.mp4"></video>
+				<video class="max-h-full max-w-full rounded-2xl" controls autoplay loop src="multivibrator/multivibrator-av1.mp4"></video>
 			</div>
 		</div>
 	</div>
