@@ -565,6 +565,9 @@ video {
 .h-16 {
   height: 4rem;
 }
+.h-\[17rem\] {
+  height: 17rem;
+}
 .h-\[calc\(100vh-5rem\)\] {
   height: calc(100vh - 5rem);
 }
@@ -646,6 +649,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -679,6 +685,14 @@ video {
 }
 .bg-tertiaryContainer {
   background-color: var(--tertiaryContainer);
+}
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 .p-2 {
   padding: 0.5rem;
