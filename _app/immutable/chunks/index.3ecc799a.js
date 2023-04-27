@@ -1,0 +1,3 @@
+import{P as h,Q as u}from"./index.32a1f553.js";function O(t){return Math.sqrt(1- --t*t)}function x(t){const n=t-1;return n*n*n+1}function _(t){return Math.sin(t*Math.PI/2)}function C(t,{delay:n=0,duration:s=400,easing:o=h}={}){const c=+getComputedStyle(t).opacity;return{delay:n,duration:s,easing:o,css:a=>`opacity: ${a*c}`}}function P(t,{delay:n=0,duration:s=400,easing:o=x,x:c=0,y:a=0,opacity:f=0}={}){const r=getComputedStyle(t),e=+r.opacity,y=r.transform==="none"?"":r.transform,p=e*(1-f),[l,m]=u(c),[$,d]=u(a);return{delay:n,duration:s,easing:o,css:(i,g)=>`
+			transform: ${y} translate(${(1-i)*l}${m}, ${(1-i)*$}${d});
+			opacity: ${e-p*g}`}}export{P as a,O as c,C as f,_ as s};

@@ -1,4 +1,4 @@
-import{S as ie,i as se,s as oe,k as e,q as d,a as o,l,m as i,r as c,h as a,c as n,n as r,O as Ct,b as ne,C as t,F as Rt}from"../chunks/index.28b7f6e4.js";function de(re){let s,x,W,f,T,X,Y,F,Z,$,N,tt,et,y,lt,at,E,z,P,g,Kt,rt,U,k,Lt,it,I,p,b,j,st,ot,D,nt,dt,V,ct,vt,w,bt,mt,A,ut,kt,v,C,ht,ft,R,zt,pt,K,xt,gt,L,_t,yt,M,Et,It,H,jt,Dt,q,Vt,wt,S,G,_,Mt;return{c(){s=e("main"),x=e("div"),W=d(`A billenőkörök pozitívan visszacsatolt univerzális digitális áramkörök,
+import{S as ie,i as se,s as oe,k as e,q as d,a as o,l,m as i,r as c,h as a,c as n,n as r,O as Ct,b as ne,C as t,F as Rt}from"../chunks/index.32a1f553.js";function de(re){let s,x,W,f,T,X,Y,F,Z,$,N,tt,et,y,lt,at,E,z,P,g,Kt,rt,U,k,Lt,it,I,p,b,j,st,ot,D,nt,dt,V,ct,vt,w,bt,mt,A,ut,kt,v,C,ht,ft,R,zt,pt,K,xt,gt,L,_t,yt,M,Et,It,H,jt,Dt,q,Vt,wt,S,G,_,Mt;return{c(){s=e("main"),x=e("div"),W=d(`A billenőkörök pozitívan visszacsatolt univerzális digitális áramkörök,
 		melyeket négyszögjelek előállítására használunk. Kimeneti feszültségük nem
 		folytonosan változik, hanem két, az áramköri paraméterek által
 		meghatározott értéket vehet fel. Az egyes állapotok közötti átbillenés
