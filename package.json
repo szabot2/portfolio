@@ -12,6 +12,7 @@
 		"@material/material-color-utilities": "^0.2.3",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.0.0",
+		"@types/aos": "^3.0.4",
 		"autoprefixer": "^10.4.13",
 		"postcss": "^8.4.21",
 		"svelte": "^3.54.0",

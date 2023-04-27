@@ -43,5 +43,12 @@
 			</div>
 		</a>
 
+		<a href="{base}/visszhang" class="w-40 group">
+			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Digital Echo Chamber</p>
+			<div class="w-40 h-[17rem] rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300 overflow-hidden">
+				<img class="w-full h-full object-center" src="{base}/wirelessled/kesz.webp" alt="" />
+			</div>
+		</a>
+
 	</div>
 </main>

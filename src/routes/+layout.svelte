@@ -37,9 +37,7 @@
 	}
 
 	:global(main) {
-		height: 100wh;
-		width: 100wv;
 		overflow: hidden;
-		padding-top: 5rem;
+		padding-top: 4rem;
 	}
 </style>
