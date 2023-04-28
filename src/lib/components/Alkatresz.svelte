@@ -8,5 +8,5 @@
 		<div class="bg-[url('multivibrator/multivibrator.webp')] bg-no-repeat bg-center bg-cover aspect-square w-20 rounded-3xl overflow-hidden" style="background-image: url({image});">
 			<p class="font-semibold text-tertiary w-full h-full flex justify-center items-center backdrop-brightness-50">{title}</p>
 		</div>
-		<p class="text-onTertiaryContainer px-1 mt-1 bg-tertiaryContainer rounded-2xl">{value}</p>
+		<p class="text-onTertiaryContainer px-1 mt-2 bg-tertiaryContainer rounded-2xl">{value}</p>
 	</div>
