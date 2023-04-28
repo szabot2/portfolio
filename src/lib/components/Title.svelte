@@ -6,7 +6,7 @@
 <div class="flex justify-center items-center mt-5 md:h-[calc(100vh-4rem)] md:mt-0">
 	<div class="max-w-screen-2xl">
 		<div class="flex justify-center items-center px-5">
-			<div class="z-10 mx-5 absolute text-primary font-bold text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center">
+			<div class="z-10 mx-5 absolute text-primary font-bold text-3xl sm:text-4xl md:text-7xl lg:text-8xl xl:text-9xl text-center">
 				<h1>{title}</h1>
 			</div>
 	
