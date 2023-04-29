@@ -18,6 +18,10 @@
 
 </script>
 
+<svelte:head>
+	<title>Szabó Tamás Portfólió</title>
+</svelte:head>
+
 <Navbar />
 {#key $page.url.href}
 	<div in:fade={{easing: circOut, duration: 650}}>
