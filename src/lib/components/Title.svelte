@@ -10,7 +10,7 @@
 				<h1>{title}</h1>
 			</div>
 	
-			<div class="brightness-50 min-w-[calc(100vw-8rem)] md:h-[calc(100vh-4rem-8rem)] rounded-full overflow-hidden">
+			<div class="brightness-50 min-w-[calc(100vw-8rem)] min-h-[6rem] md:h-[calc(100vh-4rem-8rem)] rounded-full overflow-hidden">
 				<img class="w-full h-full object-cover" src={image} alt="">
 			</div>
 		</div>
