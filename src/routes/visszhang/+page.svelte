@@ -1,11 +1,14 @@
 <script>
 	import Alkatresz from '$lib/components/Alkatresz.svelte';
 	import Title from '$lib/components/Title.svelte';
+	import Leiras from '$lib/components/Leiras.svelte';
 </script>
 
 <main>
 
 	<Title title={'Velleman digitális visszhang generátor'} image={'multivibrator/multivibrator.webp'}></Title>
+
+	<Leiras leiras='Visszhangot generál az áramkör ha belebeszélünk a Mikrofonba.'></Leiras>
 
 	<h1 class="text-primary text-center my-3 mb-2 font-semibold text-2xl">Alkatrészek</h1>
 

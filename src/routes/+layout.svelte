@@ -39,5 +39,6 @@
 	:global(main) {
 		overflow: hidden;
 		padding-top: 4rem;
+		@apply px-8
 	}
 </style>

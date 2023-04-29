@@ -32,13 +32,13 @@
 	<h1 data-aos="zoom-out" data-aos-delay="500" class="text-center text-primary font-semibold text-2xl m-2">Vegyes kapcsolás paramétereinek számítása</h1>
 
 	<div data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-out-cubic">
-		<span class="mx-5">Add meg mikor születtél:</span>
+		<span class="mr-5">Add meg mikor születtél:</span>
 		<input bind:value={date} type="date" class="focus:outline-primary bg-secondary text-onSecondary rounded-2xl p-3 outline outline-outline mt-5">
 	</div>
 
 	<div class="flex flex-wrap my-5">
 		{#key date}
-			<div class="flex flex-col mt-10 mx-5">
+			<div class="flex flex-col mt-10 mr-10">
 				<p in:fly={{delay: 25, easing:sineOut, y: -25}} class="pl-3">Adatok:</p>
 				<p in:fly={{delay: 50, easing:sineOut, y: -25}} class="bg-secondaryContainer rounded-full w-max p-3 my-1"> UXY = {U} V </p>
 				<p in:fly={{delay: 70, easing:sineOut, y: -25}} class="bg-secondaryContainer rounded-full w-max p-3 my-1"> R1 = R2 = R3 = {R1} Ω </p>
@@ -46,7 +46,7 @@
 			</div>
 		{/key}
 
-		<div class="flex flex-col mt-10 mx-5">
+		<div class="flex flex-col mt-10 mr-10">
 			{#key date}
 				<p in:fly={{delay: 125, easing:sineOut, y: -25}} class="pl-3">Az eredő ellenállás számítása:</p>
 				<p in:fly={{delay: 150, easing:sineOut, y: -25}} class="bg-secondaryContainer rounded-full w-max p-3 my-1"> Re = ( R1 x R4 ) + R2 </p>
@@ -54,7 +54,7 @@
 			{/key}
 		</div>
 
-		<div class="flex flex-col mt-10 mx-5">
+		<div class="flex flex-col mt-10 mr-10">
 			{#key date}
 				<p in:fly={{delay: 200, easing:sineOut, y: -25}} class="pl-3">Az áramkörben folyó összes áramerősség értéke:</p>
 				<p in:fly={{delay: 225, easing:sineOut, y: -25}} class="bg-secondaryContainer rounded-full w-max p-3 my-1"> I = U / Re</p>
@@ -62,7 +62,7 @@
 			{/key}
 		</div>
 
-		<div class="flex flex-col mt-10 mx-5">
+		<div class="flex flex-col mt-10 mr-10">
 			{#key date}
 				<p in:fly={{delay: 275, easing:sineOut, y: -25}} class="pl-3">Az R2 ellenálláson eső feszültség:</p>
 				<p in:fly={{delay: 300, easing:sineOut, y: -25}} class="bg-secondaryContainer rounded-full w-max p-3 my-1"> UR2 = R2 * I </p>
@@ -70,7 +70,7 @@
 			{/key}
 		</div>
 
-		<div class="flex flex-col mt-10 mx-5">
+		<div class="flex flex-col mt-10 mr-10">
 			{#key date}
 				<p in:fly={{delay: 350, easing:sineOut, y: -25}} class="pl-3">Az R1 és R4 ellenálláson eső feszültség:</p>
 				<p in:fly={{delay: 375, easing:sineOut, y: -25}} class="bg-secondaryContainer rounded-full w-max p-3 my-1"> UR14 = U - UR2 </p>
@@ -78,7 +78,7 @@
 			{/key}
 		</div>
 
-		<div class="flex flex-col mt-10 mx-5">
+		<div class="flex flex-col mt-10 mr-10">
 			{#key date}
 				<p in:fly={{delay: 425, easing:sineOut, y: -25}} class="pl-3">Az R1 ellenálláson átfolyó áramerősség értéke:</p>
 				<p in:fly={{delay: 450, easing:sineOut, y: -25}} class="bg-secondaryContainer rounded-full w-max p-3 my-1"> I1 = UR14 / R1 </p>
@@ -86,7 +86,7 @@
 			{/key}
 		</div>
 
-		<div class="flex flex-col mt-10 mx-5">
+		<div class="flex flex-col mt-10 mr-10">
 			{#key date}
 				<p in:fly={{delay: 500, easing:sineOut, y: -25}} class="pl-3">Az R4 ellenálláson átfolyó áramerősség értéke:</p>
 				<p in:fly={{delay: 525, easing:sineOut, y: -25}} class="bg-secondaryContainer rounded-full w-max p-3 my-1"> I4 = UR14 / R1 </p>
@@ -94,7 +94,7 @@
 			{/key}
 		</div>
 
-		<div class="flex flex-col mt-10 mx-5">
+		<div class="flex flex-col mt-10 mr-10">
 			{#key date}
 				<p in:fly={{delay: 575, easing:sineOut, y: -25}} class="pl-3">A teljesítmények számítása!</p>
 				<p in:fly={{delay: 600, easing:sineOut, y: -25}} class="bg-secondaryContainer rounded-full w-max p-3 my-1"> P = U * I </p>
