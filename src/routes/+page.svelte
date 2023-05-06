@@ -11,42 +11,42 @@
 		<a href="{base}/frekiszamolo" class="w-40 group">
 			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Frekiszámoló</p>
 			<div class="w-40 h-[17rem] rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300 overflow-hidden">
-				<img class="w-full h-full object-contain" src="{base}/frekiszamolo/freki.avif" alt="">
+				<img class="w-full h-full object-cover" src="{base}/frekiszamolo/freki.avif" alt="">
 			</div>
 		</a>
 
 		<a href="{base}/doga2" class="w-40 group">
 			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Doga 2</p>
 			<div class="w-40 h-[17rem] rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300 overflow-hidden">
-				<img class="w-full h-full object-center" src="{base}/doga2/doga2.webp" alt="">
+				<img class="w-full h-full object-cover" src="{base}/doga2/doga2.webp" alt="">
 			</div>
 		</a>
 
 		<a href="{base}/multivibrator" class="w-40 group">
 			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Astabil multivibrátor</p>
 			<div class="w-40 h-[17rem] rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300 overflow-hidden">
-				<img class="w-full h-full object-center" src="{base}/multivibrator/multivibrator90.webp" alt="" />
+				<img class="w-full h-full object-cover" src="{base}/multivibrator/multivibrator90.webp" alt="" />
 			</div>
 		</a>
 		
 		<a href="{base}/tesla" class="w-40 group">
 			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Mini Tesla tekercs</p>
 			<div class="w-40 h-[17rem] rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300 overflow-hidden">
-				<img class="w-full h-full object-center" src="{base}/tesla/tesla2.webp" alt="" />
+				<img class="w-full h-full object-cover" src="{base}/tesla/tesla2.webp" alt="" />
 			</div>
 		</a>
 
 		<a href="{base}/wirelessled" class="w-40 group">
 			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Vezeték nélküli LED</p>
 			<div class="w-40 h-[17rem] rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300 overflow-hidden">
-				<img class="w-full h-full object-center" src="{base}/wirelessled/kesz.webp" alt="" />
+				<img class="w-full h-full object-cover" src="{base}/wirelessled/kesz.webp" alt="" />
 			</div>
 		</a>
 
 		<a href="{base}/visszhang" class="w-40 group">
 			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">Digital Echo Chamber</p>
 			<div class="w-40 h-[17rem] rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300 overflow-hidden">
-				<img class="w-full h-full object-center" src="{base}/wirelessled/kesz.webp" alt="" />
+				<img class="w-full h-full object-cover" src="{base}/visszhang/90.webp" alt="" />
 			</div>
 		</a>
 
