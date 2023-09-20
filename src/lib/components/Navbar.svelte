@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import { argbFromHex, themeFromSourceColor, rgbaFromArgb } from "@material/material-color-utilities";
 
-	$: color = localStorage.getItem('color') || '#DC8ADD';
+	$: color = localStorage.getItem('color') || '#C64600';
 
 	// konvertálja a színeket rgba-ra és elrakja localStorage-ba.
 	function setColor() {
