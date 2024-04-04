@@ -57,5 +57,12 @@
 			</div>
 		</a>
 
+		<a href="{base}/fm" class="w-40 group">
+			<p class="text-center text-secondary my-2 font-semibold group-hover:text-primary transition duration-300">FM Rádió</p>
+			<div class="w-40 h-[17rem] rounded-3xl outline outline-2 outline-secondary group-hover:outline-primary transition-all duration-300 overflow-hidden">
+				<img class="w-full h-full object-cover" src="{base}/fm/fm.webp" alt="" />
+			</div>
+		</a>
+
 	</div>
 </main>
