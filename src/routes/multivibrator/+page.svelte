@@ -1,3 +1,7 @@
+<script>
+	import { base } from "$app/paths";
+</script>
+
 <main class="font-serif">
 	<div class="bg-secondaryContainer text-onSecondaryContainer m-4 mb-0 rounded-3xl p-7 text-white">
 		A billenőkörök pozitívan visszacsatolt univerzális digitális áramkörök,
@@ -23,12 +27,12 @@
 	<div class="flex justify-center">
 		<div class="mx-5 grid grid-cols-2 max-w-screen-2xl bg-secondaryContainer p-6 rounded-3xl gap-8">
 			<div>
-				<img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.webp" alt="" />
+				<img class="max-h-full max-w-full rounded-2xl" src="{base}/multivibrator/multivibrator.webp" alt="" />
 			</div>
 			<div>
-				<!-- <img class="max-h-full max-w-full rounded-2xl" src="multivibrator/multivibrator.avif" alt=""> -->
+				<!-- <img class="max-h-full max-w-full rounded-2xl" src="{base}/multivibrator/multivibrator.avif" alt=""> -->
 				<!-- svelte-ignore a11y-media-has-caption -->
-				<video class="max-h-full max-w-full rounded-2xl" controls autoplay loop src="multivibrator/multivibrator-av1.mp4"></video>
+				<video class="max-h-full max-w-full rounded-2xl" controls autoplay loop src="{base}/multivibrator/multivibrator-av1.mp4"></video>
 			</div>
 		</div>
 	</div>
@@ -57,7 +61,7 @@
 	<h1 class="text-2xl font-semibold text-center text-tertiary">Kapcsolási rajz</h1>
 	<div class="flex justify-center">
 		<div class="bg-secondaryContainer rounded-3xl p-4 max-w-fit mx-5 mb-5">
-			<img class="rounded-3xl w-96" src="multivibrator/astabilRajz.png" alt="">
+			<img class="rounded-3xl w-96" src="{base}/multivibrator/astabilRajz.png" alt="">
 		</div>
 	</div>
 </main>

@@ -1,3 +1,7 @@
+<script>
+	import { base } from "$app/paths";
+</script>
+
 <main class="font-serif">
 	<div class="bg-secondaryContainer text-onSecondaryContainer m-4 mb-0 rounded-3xl p-7 text-white">
 		Nikola Tesla 1891-ben építette meg a róla elnevezett Tesla-tekercset. A
@@ -18,10 +22,10 @@
 	<div class="flex justify-center">
 		<div class="grid grid-cols-2 max-w-screen-lg mx-5 bg-secondaryContainer p-6 rounded-3xl gap-8">
 			<div>
-				<img class="max-h-full max-w-full rounded-2xl" src="tesla/tesla2.webp" alt="" />
+				<img class="max-h-full max-w-full rounded-2xl" src="{base}/tesla/tesla2.webp" alt="" />
 			</div>
 			<div>
-				<img class="max-h-full max-w-full rounded-2xl" src="tesla/tesla3.webp" alt="" />
+				<img class="max-h-full max-w-full rounded-2xl" src="{base}/tesla/tesla3.webp" alt="" />
 			</div>
 		</div>
 	</div>
@@ -57,11 +61,11 @@
 		<div class="grid grid-cols-2 max-w-screen-lg mx-5 bg-secondaryContainer text-onSecondaryContainer p-6 mb-5 rounded-3xl gap-8">
 			<div>
 				<p class="text-center text-white font-semibold">Kapcsolás</p>
-				<img class="max-h-full max-w-full rounded-2xl" src="tesla/kapcsolas.jpg" alt="" />
+				<img class="max-h-full max-w-full rounded-2xl" src="{base}/tesla/kapcsolas.jpg" alt="" />
 			</div>
 			<div>
 				<p class="text-center text-white font-semibold">Alkatrészek</p>
-				<img class="max-h-full max-w-full rounded-2xl" src="tesla/alkatreszek.jpg" alt="" />
+				<img class="max-h-full max-w-full rounded-2xl" src="{base}/tesla/alkatreszek.jpg" alt="" />
 			</div>
 		</div>
 	</div>

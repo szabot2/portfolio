@@ -6,7 +6,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"deploy": "vite build && touch build/.nojekyll && gh-pages -d build -t true"
+		"deploy": "vite build && gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@material/material-color-utilities": "^0.2.3",

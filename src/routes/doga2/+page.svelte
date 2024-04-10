@@ -1,6 +1,7 @@
 <script>
 	import { fly } from 'svelte/transition';
 	import { sineOut } from 'svelte/easing'
+	import { base } from "$app/paths";
 
 	$: date = '2004-03-14';
 	$: [ year, month, day] = date.split('-').map(x => { return parseInt(x) });
@@ -111,7 +112,7 @@
 	</div>
 
 	<div class="w-6/12 p-3 max-w-xs rounded-3xl fixed bottom-5 right-5">
-		<img class="max-h-full max-w-full rounded-2xl outline outline-tertiary" src="doga2/kapcs.webp" alt="">
+		<img class="max-h-full max-w-full rounded-2xl outline outline-tertiary" src="{base}/doga2/kapcs.webp" alt="">
 	</div>
 
 </div>
